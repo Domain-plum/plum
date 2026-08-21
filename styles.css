@@ -136,7 +136,7 @@ body {
 
 .wordmark__tld {
   display: block;
-  font-size: 0.32em;
+  font-size: 0.26em;
   font-weight: 600;
   letter-spacing: -0.01em;
   font-family: var(--font-mono);
@@ -145,6 +145,13 @@ body {
   background-clip: text;
   color: transparent;
   margin-top: 0.3em;
+  white-space: normal;
+}
+
+.wordmark__amp {
+  -webkit-text-fill-color: var(--dim);
+  color: var(--dim);
+  font-weight: 400;
 }
 
 .hero__bottom {
