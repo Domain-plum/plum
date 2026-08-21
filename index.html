@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>plum.co.uk — this domain is for sale</title>
+  <meta name="description" content="plum.co.uk is a short, memorable .co.uk domain available for direct purchase from its owner.">
+  <meta name="robots" content="index, follow">
+
+  <!-- Security: Content Security Policy (locked to same-origin, no external calls at all) -->
+  <meta http-equiv="Content-Security-Policy" content="
+    default-src 'none';
+    script-src 'self';
+    style-src 'self';
+    img-src 'self';
+    font-src 'self';
+    connect-src 'none';
+    frame-src 'none';
+    object-src 'none';
+    base-uri 'none';
+    form-action 'none';
+    frame-ancestors 'none';
+    upgrade-insecure-requests;
+  ">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+</head>
+<body>
+
+  <main class="hero">
+    <div class="hero__plum" aria-hidden="true">
+      <svg viewBox="0 0 400 400" class="plum-svg">
+        <defs>
+          <radialGradient id="plumBody" cx="35%" cy="30%" r="75%">
+            <stop offset="0%" stop-color="#E7B4A4"/>
+            <stop offset="45%" stop-color="#9C4F73"/>
+            <stop offset="100%" stop-color="#3B1233"/>
+          </radialGradient>
+          <linearGradient id="stem" x1="0%" y1="100%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#6B4A2A"/>
+            <stop offset="100%" stop-color="#B08D57"/>
+          </linearGradient>
+        </defs>
+        <ellipse cx="205" cy="230" rx="140" ry="150" fill="url(#plumBody)"/>
+        <path d="M195 90 C185 60 200 35 225 20" stroke="url(#stem)" stroke-width="7" fill="none" stroke-linecap="round"/>
+        <path d="M212 45 C240 30 262 42 268 62 C244 68 222 62 212 45 Z" fill="#5B2A55" opacity="0.85"/>
+        <ellipse cx="150" cy="160" rx="30" ry="45" fill="#F4ECE4" opacity="0.18"/>
+      </svg>
+    </div>
+
+    <div class="hero__content">
+      <p class="eyebrow">Domain for sale</p>
+      <h1 class="wordmark">plum<span class="wordmark__tld">.co.uk</span></h1>
+      <p class="tagline">Four letters, one clean word, zero explaining.</p>
+      <p class="lede">A short, ripe, ready‑to‑build .co.uk — available for direct purchase from its owner. No agents, no listings, no waiting on an auction clock.</p>
+
+      <div class="cta-row">
+        <a class="btn btn--primary" href="mailto:domain@plum.co.uk?subject=Offer%20for%20plum.co.uk">Make an offer</a>
+        <button class="btn btn--ghost" id="copyEmailBtn" type="button" data-email="domain@plum.co.uk">
+          <span id="copyEmailLabel">domain@plum.co.uk</span>
+        </button>
+      </div>
+      <p class="copy-hint" id="copyHint" role="status" aria-live="polite">&nbsp;</p>
+
+      <ul class="trust-row">
+        <li>Held directly by the owner</li>
+        <li>Secure registrar‑to‑registrar transfer</li>
+        <li>No agents, no middlemen</li>
+      </ul>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>plum.co.uk is privately owned and offered for sale directly. All enquiries via <a href="mailto:domain@plum.co.uk">domain@plum.co.uk</a>.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
